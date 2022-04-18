@@ -35,7 +35,7 @@ a:active {
 }
 
 input {
-    display: block;
+    width: 100%;
     margin: 5px 0;
     border: none;
     border-bottom: 1px solid grey;
@@ -47,7 +47,7 @@ input {
 
 textarea {
     display: block;
-
+    width: 100%;
     border: none;
     border-bottom: 1px solid grey;
     background-color: #f1f1f1;
@@ -113,8 +113,8 @@ textarea {
 }
 
 .grey h3 {
-    border-bottom: 1px solid grey;
-    color: dimgrey;
+    text-align: center;
+    color: #111;
 }
 
 .div {
@@ -157,17 +157,19 @@ textarea {
     background-color: #cccce6;
 }
 
-.name-block {
+.form-name {
     display: inline-block;
+    width: 49%;
     margin: 10px 10px 5px 0px;
 }
 
-.email-block {
+.form-email {
     display: inline-block;
+    width: 49%;
     margin: 10px 0 5px;
 }
 
-.text-block {
+.form-text {
     width: 100%;
     margin: 10px 0 5px;
 }
