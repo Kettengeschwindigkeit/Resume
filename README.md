@@ -1,3 +1,3 @@
 # My Resume
 
-[My first HML & CSS project] (https://kettengeschwindigkeit.github.io/resume/)
+[My first HTML & CSS project] (https://kettengeschwindigkeit.github.io/resume/)
