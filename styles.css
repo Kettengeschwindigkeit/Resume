@@ -1,0 +1,183 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+body {
+    margin: 25px;
+    background-color: #f1f1f1;
+    font-size: 16px;
+    font-family: Roboto, sans-serif;
+    font-weight: normal;
+    line-height: 25px;
+    color: #0f141e;
+}
+
+img {
+    width: 200px;
+    border-radius: 15px;
+    box-shadow: 4px 4px 14px rgba(0, 0, 0, 0.25);
+}
+
+a {
+    color: #333;
+    text-decoration: none;
+    transition: all .2s;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+a:visited {
+    color: darkgrey;
+}
+
+a:active {
+    color: dimgrey;
+}
+
+input {
+    display: block;
+    margin: 5px 0;
+    border: none;
+    border-bottom: 1px solid grey;
+    background-color: #f1f1f1;
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+textarea {
+    display: block;
+
+    border: none;
+    border-bottom: 1px solid grey;
+    background-color: #f1f1f1;
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.container {
+    max-width: 1000px;
+    margin: auto;
+}
+
+.info-block {
+    display: inline-block;
+    margin-left: 15px;
+}
+
+.block-1 {
+    font-style: italic; 
+    font-weight: bold;
+    color: dimgray;
+}
+
+.sn-block {
+    margin-top: 30px;
+    font-weight: bold;
+}
+
+.card {
+    margin: 10px 0px;
+    padding: 15px 30px 25px;
+    border: 1px solid silver;
+    border-radius: 20px;
+}
+
+.green {
+    background-color: #e9faea; 
+    color: grey;
+    font-weight: bold; 
+}
+
+.green h3 {
+    border-bottom: 1px solid #8dcc90;
+    color: #8dcc90;
+}
+
+.blue {
+    background-color: #efefff;  
+    color: grey;
+    font-weight: bold;
+}
+
+.blue h3 {
+    border-bottom: 1px solid #9999ff;
+    color: #9999ff;
+}
+
+.grey {
+    background-color: #f1f1f1; 
+    color: grey;
+    font-weight: bold;
+}
+
+.grey h3 {
+    border-bottom: 1px solid grey;
+    color: dimgrey;
+}
+
+.div {
+    color: dimgrey;
+}
+
+.btn {
+    background: #111;
+    padding: 15px 20px;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    font-family: inherit;
+}
+
+.btn:hover {
+    opacity: .8;
+    color: khaki;
+}
+
+.list li {
+    margin-bottom: 8px;
+}
+
+.list li:nth-child(odd) {
+    background-color: #ceecd0;
+}
+
+.table {
+    width: 940px;
+}
+
+.table th {
+    background-color: #9999ff;
+    color: white;
+}
+
+.table tr:nth-child(even) {
+    background-color: #cccce6;
+}
+
+.name-block {
+    display: inline-block;
+    margin: 10px 10px 5px 0px;
+}
+
+.email-block {
+    display: inline-block;
+    margin: 10px 0 5px;
+}
+
+.text-block {
+    width: 100%;
+    margin: 10px 0 5px;
+}
+
+@media (max-width: 650px) {
+    img {
+        display: block;
+        margin: 0 auto;
+    }
+    .info-block {
+        text-align: center;
+    }
+}
